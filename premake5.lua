@@ -13,6 +13,7 @@ project "lodepng"
         "**.cpp",
         "**.h",
     }
+    buildoptions { "/MP" }
 
     filter "platforms:Windows"
         system "Windows"
