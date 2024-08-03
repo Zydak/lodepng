@@ -29,9 +29,9 @@ project "lodepng"
 
     filter "configurations:Release"
         defines { "NDEBUG" }
-        optimize "speed"
+        optimize "Full"
 
     filter "configurations:Distribution"
 		defines "DISTRIBUTION"
 		runtime "Release"
-		optimize "on"
+		optimize "Full"
